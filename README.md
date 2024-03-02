@@ -20,6 +20,39 @@ The following dependencies will be automatically installed using Rye:
 - Python Libraries
   -   The installed libraries are listed in the requirements.lock file.
 
+## Repository Initialization
+After cloning this template repository, you will need to initialize your project repository to remove the template's .git directory and start with a fresh history.
+
+Follow these steps:
+
+1. Navigate to the root of your cloned repository.
+2. Remove the existing .git directory:
+```bash
+rm -rf .git
+```
+
+3. Initialize a new Git repository:
+```bash
+git init
+```
+
+4. Add all files to the new repository:
+```bash
+git add .
+```
+
+5. Commit the files to start your project with a clean slate:
+```baah
+git commit -m "Initial commit."
+```
+
+6. Now, you can add your remote repository and push your changes:
+```bash
+# Replace <your-repository-URL> with the URL of your new GitHub repository.
+git remote add origin <your-repository-URL>
+git push -u origin main
+```
+
 ## Usage
 ### Install the required packages.
 
